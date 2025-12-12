@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Detección - Banano</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🍌 Sistema de Detección de Enfermedades en Banano</h1>
+        <nav>
+          <a href="index.html" class="active">Procesar Imágenes</a>
+          <a href="dashboard.html">Dashboard</a>
+        </nav>
+      </header>
+
+      <main>
+        <div class="upload-section">
+          <h2>Cargar Imágenes</h2>
+          <div class="upload-area" id="uploadArea">
+            <input type="file" id="fileInput" multiple accept="image/*" hidden />
+            <label for="fileInput" class="upload-label">
+              <svg width="50" height="50" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M9 16h6v-6h4l-7-7-7 7h4zm-4 2h14v2H5z" />
+              </svg>
+              <p>Click para seleccionar imágenes o arrastra aquí</p>
+              <span>Formatos: JPG, PNG</span>
+            </label>
+          </div>
+
+          <div id="previewContainer" class="preview-container"></div>
+
+          <button id="processBtn" class="btn-primary" disabled>Procesar Imágenes</button>
+        </div>
+
+        <div class="results-section" id="resultsSection" style="display: none">
+          <h2>Resultados del Procesamiento</h2>
+          <div class="progress-bar">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+          <p id="progressText">0 de 0 procesadas</p>
+          <div id="resultsContainer" class="results-container"></div>
+        </div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
