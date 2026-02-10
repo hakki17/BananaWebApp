@@ -9,7 +9,9 @@ Sistema web para detectar enfermedades en plantas de banano utilizando visión p
 
 ## Prueba
 [URL_del_video](https://github.com/hakki17/BananaWebApp/blob/main/PruebaDeteccionEnfermedadesPlatano.mp4)
-
+<video src="https://github.com/hakki17/BananaWebApp/blob/main/PruebaDeteccionEnfermedadesPlatano.mp4" width="100%" controls>
+  Tu navegador no soporta el video.
+</video>
 ## Características
 
 - Carga múltiple de imágenes (drag & drop)
