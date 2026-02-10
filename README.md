@@ -7,6 +7,9 @@ Sistema web para detectar enfermedades en plantas de banano utilizando visión p
 - María Paula Sánchez Macías
 - Sergio Andres Bejarano Rodríguez
 
+## Prueba
+[URL_del_video](https://github.com/hakki17/BananaWebApp/blob/main/PruebaDeteccionEnfermedadesPlatano.mp4)
+
 ## Características
 
 - Carga múltiple de imágenes (drag & drop)
